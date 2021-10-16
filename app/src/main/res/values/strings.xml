@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Clean Architecture Sample</string>
+    <string name="films">Films</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_main_description">Clean architecture sample with SWAPI API</string>
+    <string name="home_sub_description">To see more, click the Explore tab.</string>
+    <string name="home">Home</string>
+    <string name="version">Version</string>
+    <string name="explore">Explore</string>
+    <string name="about">About</string>
+    <string name="people">People</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="planets">Planets</string>
+    <string name="species">Species</string>
+    <string name="starships">Starships</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="app_author">Seungmin Yang</string>
+    <string name="app_author_region">South Korea</string>
+    <string name="view_source_code">View Source Code</string>
+    <string name="author">Author</string>
+    <string name="open_source_libraries">Open Source Libraries</string>
+</resources>

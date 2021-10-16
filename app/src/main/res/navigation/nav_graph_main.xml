@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.cleanarchitecture.ui.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.cleanarchitecture.ui.explore.ExploreFragment"
+        android:label="ExploreFragment">
+        <action
+            android:id="@+id/action_exploreFragment_to_filmsFragment"
+            app:destination="@id/filmsFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_peopleFragment"
+            app:destination="@id/peopleFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_planetsFragment"
+            app:destination="@id/planetsFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_speciesFragment"
+            app:destination="@id/speciesFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_starshipsFragment"
+            app:destination="@id/starshipsFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_vehiclesFragment"
+            app:destination="@id/vehiclesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.cleanarchitecture.ui.more.AboutFragment"
+        android:label="AboutFragment" />
+    <fragment
+        android:id="@+id/filmsFragment"
+        android:name="com.example.cleanarchitecture.ui.explore.film.fragment.FilmsFragment"
+        android:label="FilmsFragment" />
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.example.cleanarchitecture.ui.explore.person.fragment.PeopleFragment"
+        android:label="PeopleFragment" />
+    <fragment
+        android:id="@+id/planetsFragment"
+        android:name="com.example.cleanarchitecture.ui.explore.planet.fragment.PlanetsFragment"
+        android:label="PlanetsFragment" />
+    <fragment
+        android:id="@+id/speciesFragment"
+        android:name="com.example.cleanarchitecture.ui.explore.specie.fragment.SpeciesFragment"
+        android:label="SpeciesFragment" />
+    <fragment
+        android:id="@+id/starshipsFragment"
+        android:name="com.example.cleanarchitecture.ui.explore.starship.fragment.StarshipsFragment"
+        android:label="StarshipsFragment" />
+    <fragment
+        android:id="@+id/vehiclesFragment"
+        android:name="com.example.cleanarchitecture.ui.explore.vehicle.fragment.VehiclesFragment"
+        android:label="VehiclesFragment" />
+</navigation>
